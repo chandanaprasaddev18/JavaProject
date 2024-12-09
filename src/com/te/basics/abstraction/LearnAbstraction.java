@@ -66,7 +66,7 @@ class DecidesPaymentProcess {
 public class LearnAbstraction {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the payment type you want");
+		System.out.println("Enter the application through which you need to process payment");
 		String payThrough = sc.next();
 		Payment paymentProcess = DecidesPaymentProcess.decidingPaymentProcess(payThrough);
 		paymentProcess.validateUser();
